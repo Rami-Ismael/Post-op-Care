@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'MyHomePage.dart';
+import 'HealthCare_Provider_Form.dart';
 void main() {
   runApp(MyApp());
 }
@@ -25,6 +26,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/':(context) => MyHomePage(title:"Pain Management"),
+        '/H':(context) => HealthCare_Provider_Form()
       },
      //home: MyHomePage(title: "Pain Management",)
     );
