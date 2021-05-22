@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:painmanagement/HealthCare_Provider_Form.dart';
+import 'package:painmanagement/Empty.dart';
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -14,6 +15,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int currentTabIndex=0;
   int _counter = 0;
   List<StatefulWidget> tabs=[
+    Empty(),
     HealthCare_Provider_Form(),
   ];
   onTapped(int index){
